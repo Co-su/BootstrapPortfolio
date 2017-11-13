@@ -2,6 +2,9 @@ body {
 	align-content: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
+	font-family: "Georgia", Times, Times New Roman, serif, "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	background-image: url("assets/images/cork-wallet.jpg");
+
 }
 nav {
 	align-content: center;
@@ -9,8 +12,33 @@ nav {
 footer {
 	text-align: center;
 }
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+a:active {
+    text-decoration: underline;
+    color: #ffffff;
+}
+h1 {
+	color: #4aaaa5;
+	font-family: "Georgia"
+}
+h3 {
+	color: #4aaaa5;
+	font-family: "Georgia"
+}
 .container {
 	width: 960px;
+	color: #777777;
 }
 .navbar-fixed-bottom {
 	align-content: center;
@@ -19,3 +47,101 @@ footer {
 	border-top: 3px solid #4aaaa5;
 	padding-top: 10px;
 }
+p {
+	font-family: "Arial";
+}
+.col-md-8 {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+.col-md-3 {
+	background-color: #ffffff;
+	text-align: center;
+	border: 1px solid #cccccc;
+}
+#biography {
+	border-top: 1px solid #dddddd;
+}
+#iconbox {
+	border-top: 1px solid #dddddd;
+}
+#portfolioBox {
+	border-top: 1px solid #dddddd;
+}
+.fa-stack-overflow {
+	padding: 10px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #e2af26;
+	position: relative;
+}
+.fa-linkedin {
+	padding: 10px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 10px;	
+	color: #2649e2;	
+	position: relative;
+}
+.fa-github {
+	padding: 10px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 10px;	
+	color: #424242;
+	position: relative;
+}
+#aboutPic {
+	max-width: 40%;
+	max-height: 40%;
+	float: left;
+	margin: 10px;
+}
+#portfolioPic {
+	max-width: 60%;
+	max-height: 60%;
+	margin: 10px;
+	float: left;
+}
+#workTitle {
+	text-align: center;
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+#biotext {
+	margin: 10px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #317c79;
+}
+#contactForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
